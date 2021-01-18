@@ -1,9 +1,9 @@
 # it-ege-2021
-Solutions for EGE tasks on python.
+Solutions for EGE tasks on python and paint.
 
 | Task | Solutions |
 |-----|-----|
-| 1   | none |
+| 1   | [click](https://github.com/nikitt-code/it-ege-2021/tree/main/1) |
 | 2   | none |
 | 3   | none |
 | 4   | none |
