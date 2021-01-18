@@ -3,7 +3,7 @@ Solutions for EGE tasks on python.
 
 | Task | Solutions |
 |-----|-----|
-| 1   | (click)[https://github.com/nikitt-code/it-ege-2021/tree/main/1] |
+| 1   | [click](https://github.com/nikitt-code/it-ege-2021/tree/main/1) |
 | 2   | none |
 | 3   | none |
 | 4   | none |
