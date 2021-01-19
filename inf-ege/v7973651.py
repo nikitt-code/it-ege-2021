@@ -8,8 +8,6 @@ def task2():
                     F = (x or not y) and not (w == z) and w
                     if F:
                         print(w, z, y, x)
-
-
 # task2() - wzyx
 
 def task5():
@@ -21,8 +19,6 @@ def task5():
         if N > 105:
             print(N)
             break
-
-
 # task5() - 111
 
 def task6():
@@ -32,8 +28,6 @@ def task6():
         s = s - 10
         n = n + 2
     print(n)
-
-
 # task6() - 62
 
 def task10():
@@ -43,8 +37,6 @@ def task10():
             if "дом" in x:
                 if len(x) == 3 or len(x) == 4:
                     print(x)
-
-
 # task10() - 1
 
 def task11():
@@ -53,8 +45,6 @@ def task11():
     bit_len = round(symbols * length / 8)
     mass = bit_len * 50
     print(mass)
-
-
 # task11() - 500
 
 def task12():
@@ -63,8 +53,6 @@ def task12():
         inp = inp.replace("111", "2", 1)
         inp = inp.replace("222", "1", 1)
     print(inp)
-
-
 # task12() - 21
 
 def task14():
@@ -74,10 +62,7 @@ def task14():
             d += str(int(n % b))
             n //= b
         return d[::-1]
-
     print(convert(36 ** 8 + 6 ** 20 - 12, 6).count("0"))
-
-
 # task14() - 5
 
 def task15():
@@ -94,8 +79,6 @@ def task15():
         if OK:
             print(A)
             break
-
-
 # task15() - 21
 
 def task16():
@@ -104,10 +87,7 @@ def task16():
             return 3
         if n > 1:
             return F(n - 1) * (n - 1)
-
     print(F(6))
-
-
 # task16() - 360
 
 def task17():
@@ -116,6 +96,19 @@ def task17():
         if x % 13 == 0 and x % 15 == 0 and x % 7 != 0 and x % 17 != 0 and x % 20 != 0 and x % 27 != 0:
             found.append(x)
     print(str(len(found)) + str(min(found)))
-
-
 # task17() - 67410
+
+def task22():
+    for z in range(1000):
+        x = z
+        L = 0
+        M = 0
+        while x > 0:
+            L = L + 1
+            if x % 2 == 0:
+                M = M + x % 10
+            x = x // 10
+        if L == 3 and M == 8:
+            print(z)
+            break
+# task22() - 108
