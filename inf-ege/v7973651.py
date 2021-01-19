@@ -1,4 +1,4 @@
-# https://inf-ege.sdamgia.ru/test?id=7973651
+# Link: https://inf-ege.sdamgia.ru/test?id=7973651
 
 def task2():
   for w in range(2):
