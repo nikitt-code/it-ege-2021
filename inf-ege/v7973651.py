@@ -37,7 +37,6 @@ def task6():
 # task6() - 62
 
 def task10():
-    import re
     with open("onegin.txt", "r") as text:
         text = text.read().lower().split()
         for x in text:
